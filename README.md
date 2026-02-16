@@ -1,4 +1,4 @@
-# Hevo Data Engineering Assessment
+# Hevo Assignment 1 (CXE)
 
 ## Overview
 This project implements a CDC-based pipeline using Hevo to replicate data from PostgreSQL to Snowflake and apply transformations.
@@ -50,6 +50,7 @@ Converted order status to event_type using CASE logic.
 
 ## Validation
 Validation queries available in /validation folder.
+
 
 
 
