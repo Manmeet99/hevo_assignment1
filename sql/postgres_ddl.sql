@@ -14,7 +14,7 @@ CREATE TABLE orders (
 
 CREATE TABLE feedback (
     id SERIAL PRIMARY KEY,
-    order_id INT UNIQUE REFERENCES orders(id),
+    order_id INT ,
     feedback_comment TEXT,
     rating INT
 );
